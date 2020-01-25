@@ -68,13 +68,13 @@ namespace AnimationAndroid
 
         private void StartScaleButtonClick(object sender, EventArgs e)
         {
-            _animationScale = AnimationUtils.LoadAnimation(this, scale);
+            _animationScale = AnimationUtils.LoadAnimation(this, skale);
             _heartImageView.StartAnimation(_animationScale);
         }
 
         private void StartShakeButtonClick(object sender, EventArgs e)
         {
-            var animationShake = AnimationUtils.LoadAnimation(this, shake);           
+            var animationShake = AnimationUtils.LoadAnimation(this, shake);
             _buddiesImageView.StartAnimation(animationShake);
         }
 
